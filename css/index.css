@@ -1,0 +1,8 @@
+/* 首页样式 */
+.header {
+    display: flex;
+    height: 88px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background-color: pink;
+}

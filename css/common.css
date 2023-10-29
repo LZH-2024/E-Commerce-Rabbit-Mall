@@ -1,0 +1,44 @@
+/* 重复模块样式 */
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 52px;
+}
+
+.shortcut .wrapper ul {
+    display: flex;
+    line-height: 52px;
+}
+
+.shortcut .wrapper ul a {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #fff;
+    border-right: 1px solid #999;
+    user-select: none;
+}
+
+.shortcut .wrapper ul a:hover {
+    color: #5EB69C;
+}
+
+.shortcut .wrapper ul li:last-child a {
+    border-right: 0;
+}
+
+.shortcut .wrapper .iconfont {
+    vertical-align: bottom;
+    font-size: 20px;
+    margin-right: 4px;
+}
