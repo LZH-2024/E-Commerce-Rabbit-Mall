@@ -42,3 +42,204 @@
     font-size: 20px;
     margin-right: 4px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 67px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.header .logo a {
+    display: block;
+    margin-right: 40px;
+    width: 200px;
+    height: 67px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 200px 67px;
+}
+
+.nav {
+    margin-right: 28px;
+    user-select: none;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li a {
+    margin-right: 47px;
+    padding-bottom: 10px;
+}
+
+.nav ul li a:hover {
+    color: #5eb69c;
+    border-bottom: 2px solid #5eb69c;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 34px;
+    margin-right: 45px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.search .iconfont {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.search input {
+    flex: 1;
+    width: 0;
+    height: 34px;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart .iconfont {
+    font-size: 24px;
+}
+
+.cart i {
+    position: absolute;
+    left: 12px;
+    top: 1px;
+    height: 15px;
+    padding: 0 6px;
+    background-color: #e26237;
+    font-size: 14px;
+    color: #fffefe;
+    line-height: 15px;
+    border-radius: 8px;
+    user-select: none;
+}
+
+.footer {
+    height: 580px;
+    background-color: #333;
+    user-select: none;
+}
+
+.footer .service {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.footer .service ul {
+    display: flex;
+    height: 178px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .service ul li {
+    display: flex;
+    width: 190px;
+    height: 58px;
+    color: #fff;
+}
+
+.footer .service h5 {
+    height: 58px;
+    width: 58px;
+    margin-right: 20px;
+    background: url(../images/sprites.png) 1px 0;
+}
+
+.footer .service li:nth-child(2) h5 {
+    height: 58px;
+    width: 58px;
+    margin-right: 20px;
+    background: url(../images/sprites.png) -64px 0;
+}
+
+.footer .service li:nth-child(3) h5 {
+    height: 58px;
+    width: 58px;
+    margin-right: 20px;
+    background: url(../images/sprites.png) -129px 0;
+}
+
+.footer .service p {
+    line-height: 58px;
+    font-size: 28px;
+}
+
+.footer .help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.footer .help .left {
+    display: flex;
+}
+
+.footer .help .left dl {
+    margin-right: 80px;
+}
+
+.footer .help .left dl:last-child {
+    margin-right: 0;
+}
+
+.footer .help .left dt {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #969696;
+}
+
+.footer .help .left dd {
+    margin-bottom: 10px;
+}
+
+.footer .help .left a {
+    color: #969696;
+}
+
+.footer .help .right ul {
+    display: flex;
+}
+
+.footer .help .right li:first-child {
+    margin-right: 55px;
+}
+
+.footer .help .right .wx-qr {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+    background: url(../images/QRcode.png);
+}
+
+.footer .help .right p {
+    color: #969696;
+    text-align: center;
+}
+
+.footer .copyright {
+    text-align: center;
+}
+
+.footer .copyright p {
+    margin-bottom: 10px;
+    color: #a1a1a1;
+}
+
+.footer .copyright p a {
+    padding: 5px;
+    color: #a1a1a1;
+}
