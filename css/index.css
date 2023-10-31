@@ -1,1 +1,88 @@
 /* 首页样式 */
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+    user-select: none;
+}
+
+.banner .wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    background-color: pink;
+}
+
+.banner .pic {
+    display: flex;
+    width: 3720px;
+}
+
+.banner .pic li {
+    width: 1240px;
+}
+
+.banner .subnav {
+    position: absolute;
+    top: 0px;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.banner .subnav li {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.banner .subnav li:hover {
+    background-color: #5EB69C;
+}
+
+.banner .subnav li a {
+    color: white;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.banner .subnav li .classify {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.banner ol {
+    position: absolute;
+    display: flex;
+    bottom: 16px;
+    right: 16px;
+}
+
+.banner ol li {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.banner ol .selected {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner ol .selected i {
+    background-color: white;
+}
+
+.banner ol i {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 5px;
+}

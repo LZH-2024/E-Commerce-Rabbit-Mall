@@ -129,6 +129,7 @@
 
 .footer {
     height: 580px;
+    margin-top: 20px;
     background-color: #333;
     user-select: none;
 }
