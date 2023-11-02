@@ -182,3 +182,50 @@
     color: rgb(196, 189, 189);
     font-size: 14px;
 }
+
+.rmpp {
+    margin-top: 30px;
+}
+
+.rmpp .tittle {
+    position: relative;
+    height: 80px;
+}
+
+.rmpp .button {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+}
+
+.rmpp .button a {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.rmpp .button .lt {
+    background-color: #ddd;
+}
+
+.rmpp .button .rt {
+    background-color: #5EB69C;
+}
+
+.rmpp .bd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rmpp .bd ul li {
+    width: 240px;
+    height: 300px;
+}
+
+.rmpp .bd ul li img {
+    width: 240px;
+    height: 300px;
+}
